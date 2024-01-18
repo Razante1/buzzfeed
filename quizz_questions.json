@@ -1,0 +1,68 @@
+{
+    "title":"Que personagem de Grand Chase eu seria ?",
+    "personagens" :[
+      {
+        "id":1,
+        "name": "Elesis",
+        "caracteristicas":["Vermecia","Curta","Dano","Unico"],
+        "color": "Red"
+
+      },
+      {
+        "id":2,
+        "name": "Lire",
+        "caracteristicas":["Vermecia","Longa","Dano","Unico"]
+      },
+      {
+        "id":6,
+        "name": "Ronan",
+        "caracteristicas":["Canaban","Curta","Hibrido","Unico"]
+      }
+    ],
+    "questions":[
+      {
+        "id":1,
+        "question": "Qual continente voce seria?",
+        "options":[
+          {"id": 1, "name":"Vermecia", "alias":"Vermecia"},
+          {"id": 2, "name":"Canaban", "alias":"Canaban"},
+          {"id": 3, "name":"Terra de Prata", "alias":"A"},
+          {"id": 4, "name":"Xenia", "alias":"B"},
+          {"id": 5, "name":"Elia", "alias":"B"},
+          {"id": 6, "name":"Aton", "alias":"B"},
+          {"id": 7, "name":"Frostland", "alias":"B"},
+          {"id": 8, "name":"Arquimidia", "alias":"A"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Prefere lutar a longa distancia ou a curta distancia ?",
+        "options":[
+          {"id": 1, "name":"Longa", "alias":"Longa"},
+          {"id": 2, "name":"Curta", "alias":"Curta"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Qual seria a base do seu personagem ?",
+        "options":[
+          {"id": 1, "name":"Buffar os outros", "alias":"Buff"},
+          {"id": 2, "name":"Hibrido de dano e buffar o time", "alias":"Hibrido"},
+          {"id": 3, "name":"Dano bruto", "alias":"Dano"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "Prefere muitos alvos ou um alvo unico ?",
+        "options":[
+          {"id": 1, "name":"Varios alvos", "alias":"Varios"},
+          {"id": 2, "name":"Foco em matar boss", "alias":"Unico"}
+        ]
+      }
+    ],
+    "results":{
+      "Elesis": "Seu personagem e Elesis!",
+      "Ronan": "Seu personagem e Ronan!",
+      "B": "Você muito provavelmente seria um super Herói!"
+    }
+  }
